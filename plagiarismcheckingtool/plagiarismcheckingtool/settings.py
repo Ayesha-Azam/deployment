@@ -25,7 +25,7 @@ SECRET_KEY = '0i&@e^_)mlq@f2!siybz6^6!cckuxn+akqf)ax@r-#wu%qo55&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ayesha998.pythonanywhere.com']
 
 
 # Application definition
@@ -118,3 +118,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/Ayesha998/deployment/plagiarismcheckingtool/static'
